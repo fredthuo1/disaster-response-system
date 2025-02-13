@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\frontend",
-    "\\frontend\\disaster-dashboard",
-    "\\frontend\\disaster-dashboard\\src"
+    "\\frontend"
   ],
-  "SelectedNode": "\\backend\\index.js",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

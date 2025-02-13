@@ -2,7 +2,6 @@
 const axios = require("axios");
 const dotenv = require("dotenv");
 const admin = require("firebase-admin");
-const { Twilio } = require("twilio");
 const cors = require("cors");
 const http = require("http");
 const { Server } = require("socket.io");
@@ -13,10 +12,17 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const server = http.createServer(app);
-const io = new Server(server, { cors: { origin: "*" } });
+const io = new Server(server, {
+    cors: { origin: process.env.FRONTEND_URL || "*" }
+});
 
+// ✅ Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: process.env.FRONTEND_URL || "*",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type"]
+}));
 
 // ✅ **Load Firebase Credentials from ENV**
 const firebaseConfigBase64 = process.env.FIREBASE_CREDENTIALS_BASE64;
@@ -30,7 +36,7 @@ const firebaseConfig = JSON.parse(Buffer.from(firebaseConfigBase64, "base64").to
 admin.initializeApp({ credential: admin.credential.cert(firebaseConfig) });
 const db = admin.firestore();
 
-// 🛠 **Utility: Log Requests**
+// 🛠 **Utility: Log API Requests**
 const logRequest = (route, params) => {
     console.log(`[${new Date().toISOString()}] 🔍 Request to ${route}`);
     console.log(`   📌 Params:`, params);
@@ -55,7 +61,7 @@ const getCityFromCoordinates = async (lat, lon) => {
     }
 };
 
-// 🌦 **Weather API - Uses Lat/Lon**
+// 🌦 **Weather API - Fetch Weather Data**
 app.get("/api/weather", async (req, res) => {
     logRequest("/api/weather", req.query);
     try {
@@ -64,7 +70,7 @@ app.get("/api/weather", async (req, res) => {
             return res.status(400).json({ error: "Latitude and Longitude are required" });
         }
         const apiKey = process.env.OPENWEATHER_API_KEY;
-        const url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
         const response = await axios.get(url);
         console.log("✅ Weather Data:", response.data);
         res.json(response.data);
@@ -74,7 +80,7 @@ app.get("/api/weather", async (req, res) => {
     }
 });
 
-// 🌍 **Earthquake Data**
+// 🌍 **Earthquake API - Fetch Nearby Earthquakes**
 app.get("/api/earthquake", async (req, res) => {
     logRequest("/api/earthquake", req.query);
     try {

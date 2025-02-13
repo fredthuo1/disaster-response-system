@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\frontend"
+    "\\frontend",
+    "\\frontend\\disaster-dashboard",
+    "\\frontend\\disaster-dashboard\\src"
   ],
-  "SelectedNode": "\\backend\\index.js",
+  "SelectedNode": "\\frontend\\disaster-dashboard\\package.json",
   "PreviewInSolutionExplorer": false
 }

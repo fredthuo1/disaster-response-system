@@ -9,7 +9,6 @@ frontend/.env
 
 # Firebase credentials (If applicable)
 backend/firebase_credentials.json
-backend/vercel.json
 
 
 # Logs & cache

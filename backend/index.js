@@ -13,14 +13,16 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const server = http.createServer(app);
 const io = new Server(server, {
-    cors: { origin: process.env.FRONTEND_URL || "*" }
+    cors: {
+        origin: ["https://disaster-response-system-alpha.vercel.app", "http://localhost:3000"], 
+        methods: ["GET", "POST"]
+    }
 });
 
 // ✅ Middleware
 app.use(express.json());
 app.use(cors({
-    origin: process.env.FRONTEND_URL || "*",
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: ["https://disaster-response-system-alpha.vercel.app", "http://localhost:3000"], 
     allowedHeaders: ["Content-Type"]
 }));
 

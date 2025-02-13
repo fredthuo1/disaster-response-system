@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\disaster-api-test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\disaster-api-test\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\disaster-api-test\\backend\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\disaster-dashboard\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\disaster-api-test\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 135,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\backend\\index.js",
               "RelativeDocumentMoniker": "backend\\index.js",
@@ -99,20 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "tailwind.config.js",
-              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\tailwind.config.js",
-              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\tailwind.config.js",
-              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\tailwind.config.js",
-              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\tailwind.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:10:09.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SubscribeAlert.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\SubscribeAlert.js",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\SubscribeAlert.js",
@@ -120,12 +107,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\SubscribeAlert.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:10:08.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:10:08.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "setupTests.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\setupTests.js",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\setupTests.js",
@@ -133,12 +119,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\setupTests.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:10:07.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:10:07.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SendAlert.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\SendAlert.js",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\SendAlert.js",
@@ -146,12 +131,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\SendAlert.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:09:58.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:58.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "reportWebVitals.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\reportWebVitals.js",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\reportWebVitals.js",
@@ -159,12 +143,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\reportWebVitals.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:09:57.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:57.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ReportDisaster.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\ReportDisaster.js",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\ReportDisaster.js",
@@ -172,12 +155,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\ReportDisaster.js",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:09:53.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:53.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "logo.svg",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\logo.svg",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\logo.svg",
@@ -185,12 +167,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\logo.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-02-13T20:09:53.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:53.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "index.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\index.js",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\index.js",
@@ -198,12 +179,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\index.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:09:51.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:51.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\index.css",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\index.css",
@@ -211,12 +191,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\index.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-13T20:09:50.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:50.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EmergencyContacts.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\EmergencyContacts.js",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\EmergencyContacts.js",
@@ -224,77 +203,11 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\EmergencyContacts.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:09:25.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:25.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DisasterMap.js",
-              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\DisasterMap.js",
-              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\DisasterMap.js",
-              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\DisasterMap.js",
-              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\DisasterMap.js",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAEwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:08:19.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DisasterList.js",
-              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\DisasterList.js",
-              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\DisasterList.js",
-              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\DisasterList.js",
-              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\DisasterList.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:08:16.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CommunityForum.js",
-              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\CommunityForum.js",
-              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\CommunityForum.js",
-              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\CommunityForum.js",
-              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\CommunityForum.js",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:08:11.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "firebaseConfig.js",
-              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\firebaseConfig.js",
-              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\firebaseConfig.js",
-              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\firebaseConfig.js",
-              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\firebaseConfig.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:06:01.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\.env",
-              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\.env",
-              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\.env",
-              "RelativeToolTip": "frontend\\disaster-dashboard\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-13T20:05:53.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -307,7 +220,79 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\tailwind.config.js",
+              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\tailwind.config.js",
+              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\tailwind.config.js",
+              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\tailwind.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-13T20:10:09.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DisasterMap.js",
+              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\DisasterMap.js",
+              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\DisasterMap.js",
+              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\DisasterMap.js",
+              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\DisasterMap.js",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAEwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-13T20:08:19.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DisasterList.js",
+              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\DisasterList.js",
+              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\DisasterList.js",
+              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\DisasterList.js",
+              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\DisasterList.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-13T20:08:16.262Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "CommunityForum.js",
+              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\CommunityForum.js",
+              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\CommunityForum.js",
+              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\CommunityForum.js",
+              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\CommunityForum.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-13T20:08:11.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "firebaseConfig.js",
+              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\firebaseConfig.js",
+              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\firebaseConfig.js",
+              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\firebaseConfig.js",
+              "RelativeToolTip": "frontend\\disaster-dashboard\\src\\firebaseConfig.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-13T20:06:01.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\.env",
+              "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\.env",
+              "ToolTip": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\.env",
+              "RelativeToolTip": "frontend\\disaster-dashboard\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-13T20:05:53.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "App.js",
               "DocumentMoniker": "C:\\Users\\User\\disaster-api-test\\frontend\\disaster-dashboard\\src\\App.js",
               "RelativeDocumentMoniker": "frontend\\disaster-dashboard\\src\\App.js",
@@ -315,8 +300,7 @@
               "RelativeToolTip": "frontend\\disaster-dashboard\\src\\App.js",
               "ViewState": "AgIAAHsAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-13T20:02:06.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:02:06.812Z"
             }
           ]
         }

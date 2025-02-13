@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: ["https://disaster-response-system-alpha.vercel.app/", "http://localhost:3000"], 
+        origin: ["https://disaster-response-system-alpha.vercel.app/", "http://localhost:3000", "https://disaster-response-system-uynm.vercel.app/"], 
         methods: ["GET", "POST"]
     }
 });
@@ -22,7 +22,7 @@ const io = new Server(server, {
 // ✅ Middleware
 app.use(express.json());
 app.use(cors({
-    origin: ["https://disaster-response-system-alpha.vercel.app/", "http://localhost:3000"], 
+    origin: ["https://disaster-response-system-alpha.vercel.app/", "http://localhost:3000", "https://disaster-response-system-uynm.vercel.app/"], 
     allowedHeaders: ["Content-Type"]
 }));
 

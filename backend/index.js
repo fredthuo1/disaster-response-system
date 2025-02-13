@@ -6,23 +6,27 @@ const { Twilio } = require("twilio");
 const cors = require("cors");
 const http = require("http");
 const { Server } = require("socket.io");
-const path = require("path");
 
-// Load environment variables
+// ✅ Load environment variables
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 const server = http.createServer(app);
-const io = new Server(server, {
-    cors: { origin: "*" }
-});
+const io = new Server(server, { cors: { origin: "*" } });
 
 app.use(express.json());
 app.use(cors());
 
-// Initialize Firebase Admin
-const firebaseConfig = require(path.join(__dirname, "firebase_credentials.json"));
+// ✅ **Load Firebase Credentials from ENV**
+const firebaseConfigBase64 = process.env.FIREBASE_CREDENTIALS_BASE64;
+if (!firebaseConfigBase64) {
+    console.error("⚠️ Firebase credentials missing! Set FIREBASE_CREDENTIALS_BASE64 in Vercel.");
+    process.exit(1);
+}
+const firebaseConfig = JSON.parse(Buffer.from(firebaseConfigBase64, "base64").toString("utf8"));
+
+// ✅ **Initialize Firebase**
 admin.initializeApp({ credential: admin.credential.cert(firebaseConfig) });
 const db = admin.firestore();
 
@@ -57,7 +61,6 @@ app.get("/api/weather", async (req, res) => {
     try {
         let { lat, lon } = req.query;
         if (!lat || !lon) {
-            console.warn("⚠️ Missing lat/lon for weather request");
             return res.status(400).json({ error: "Latitude and Longitude are required" });
         }
         const apiKey = process.env.OPENWEATHER_API_KEY;
@@ -77,7 +80,6 @@ app.get("/api/earthquake", async (req, res) => {
     try {
         const { lat, lon } = req.query;
         if (!lat || !lon) {
-            console.warn("⚠️ Missing lat/lon for earthquake request");
             return res.status(400).json({ error: "Latitude and Longitude are required" });
         }
         const url = `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude=${lat}&longitude=${lon}&maxradiuskm=500&limit=5`;
@@ -96,7 +98,6 @@ app.post("/api/report", async (req, res) => {
     try {
         const { location, disasterType, severity, lat, lon } = req.body;
         if (!lat || !lon) {
-            console.warn("⚠️ Invalid location data in disaster report");
             return res.status(400).json({ error: "Latitude and Longitude are required" });
         }
         const report = await db.collection("disasters").add(req.body);
@@ -129,7 +130,6 @@ app.get("/api/hospitals", async (req, res) => {
     try {
         const { lat, lon } = req.query;
         if (!lat || !lon) {
-            console.warn("⚠️ Missing lat/lon for hospital search");
             return res.status(400).json({ error: "Latitude and Longitude are required" });
         }
         const apiKey = process.env.GOOGLE_MAPS_API_KEY;
